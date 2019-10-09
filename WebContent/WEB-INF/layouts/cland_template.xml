@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<!-- Public Template -->
+	<definition name="public.template" template="/WEB-INF/templates/public/template.jsp">
+		<put-attribute name="header" value="/WEB-INF/templates/public/header.jsp"></put-attribute>
+		<put-attribute name="right-bar" value="/WEB-INF/templates/public/right-bar.jsp"></put-attribute>
+		<put-attribute name="content" value=""></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/templates/public/footer.jsp"></put-attribute>
+		<put-attribute name="js" value=""></put-attribute>
+		<put-attribute name="css" value=""></put-attribute>
+	</definition>
+	
+	<definition name="public.index" extends="public.template">
+		<put-attribute name="content" value="/WEB-INF/views/public/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="public.detail" extends="public.template">
+		<put-attribute name="content" value="/WEB-INF/views/public/single.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="public.cat" extends="public.template">
+		<put-attribute name="content" value="/WEB-INF/views/public/cat.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="public.contact" extends="public.template">
+		<put-attribute name="content" value="/WEB-INF/views/public/contact.jsp"></put-attribute>
+	</definition>
+	
+	<!-- Admin Template -->
+	
+	<definition name="admin.template" template="/WEB-INF/templates/admin/template.jsp">
+		<put-attribute name="header" value="/WEB-INF/templates/admin/header.jsp"></put-attribute>
+		<put-attribute name="left-bar" value="/WEB-INF/templates/admin/left-bar.jsp"></put-attribute>
+		<put-attribute name="content" value=""></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/templates/admin/footer.jsp"></put-attribute>
+		<put-attribute name="js" value=""></put-attribute>
+		<put-attribute name="css" value=""></put-attribute>
+	</definition>
+	
+	<definition name="admin.index.index" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/index/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.cat.index" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/cat/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.cat.add" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/cat/add.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.cat.edit" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/cat/edit.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.land.index" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/land/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin.land.add" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/land/add.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.land.edit" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/land/edit.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.user.index" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/user/index.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.user.add" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/user/add.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.user.edit" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/user/edit.jsp"></put-attribute>
+	</definition>
+	<definition name="admin.contact.index" extends="admin.template">
+		<put-attribute name="content" value="/WEB-INF/views/admin/contact/index.jsp"></put-attribute>
+	</definition>
+	<!-- Login Template -->
+	<definition name="auth.login" template="/WEB-INF/templates/auth/template.jsp"></definition>
+</tiles-definitions>

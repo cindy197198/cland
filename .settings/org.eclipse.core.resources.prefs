@@ -1,0 +1,16 @@
+eclipse.preferences.version=1
+encoding//WebContent/WEB-INF/templates/auth/template.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/auth/login.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/public/index.jsp=UTF-8
+encoding//WebContent/WEB-INF/views/public/single.jsp=UTF-8
+encoding//src/vn/edu/vinaenter/controller/admins/AdminCategoryController.java=UTF-8
+encoding//src/vn/edu/vinaenter/controller/admins/AdminLandController.java=UTF-8
+encoding//src/vn/edu/vinaenter/controller/admins/AdminUserController.java=UTF-8
+encoding//src/vn/edu/vinaenter/controller/auth/AuthController.java=UTF-8
+encoding//src/vn/edu/vinaenter/defines/MessageDefine.java=UTF-8
+encoding//src/vn/edu/vinaenter/models/Category.java=UTF-8
+encoding//src/vn/edu/vinaenter/models/Contact.java=UTF-8
+encoding//src/vn/edu/vinaenter/models/Land.java=UTF-8
+encoding//src/vn/edu/vinaenter/models/User.java=UTF-8
+encoding//src/vn/edu/vinaenter/utils/StringUtil.java=UTF-8
+encoding//src/vn/edu/vinaenter/validator/CategoryValidator.java=UTF-8
